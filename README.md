@@ -8,7 +8,7 @@ agent.
 ## Status
 
 Work in progress. The regex successfully matches and extracts fields from a
-combined log format line. 
+combined log format line. Does not as of yet sort or flag logs per results of extraction.
 
 ## Usage
 
