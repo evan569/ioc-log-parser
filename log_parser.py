@@ -6,5 +6,6 @@ def parse(log_file):
         return None
     return match.groupdict()
 with open('access.log') as f:
+    for line as f:
         result = parse(line)
         print(result)
