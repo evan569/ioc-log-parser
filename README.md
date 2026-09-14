@@ -8,10 +8,7 @@ agent.
 ## Status
 
 Work in progress. The regex successfully matches and extracts fields from a
-combined log format line. The GET-only filter on line 10 (`if 'method': 'GET'`)
-is currently a no-op — it needs to compare `result['method']` to `'GET'`
-instead of checking the truthiness of the string literal `'method'`. Fixing
-that is the next step.
+combined log format line. 
 
 ## Usage
 
